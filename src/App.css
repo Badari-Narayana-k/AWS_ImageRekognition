@@ -1,0 +1,71 @@
+/* Gradient background for entire page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom, #f4f4f4, #7beba8, #ba4e4e, #7c7979, #46add3); /* Adjust colors as needed */    
+}
+
+/* Center content within the page */
+.App {
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 40px; /* Adjust as needed */
+    min-height: 725px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+
+input[type='file'] {
+    margin-bottom: 20px;
+    border: none;
+    padding: 0;
+}
+
+/* Style input button */
+input[type='file']::-webkit-file-upload-button {
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for input button */
+input[type='file']::-webkit-file-upload-button:hover {
+    background-color: #6f879e;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6f879e;
+}
+
+.Success {
+    color: green; /* Only changes text color to green */
+    margin-top: 20px;
+}
+
+.Failure {
+    color: red; /* Only changes text color to red */
+    margin-top: 20px;
+}
+
+img {
+    margin-top: 20px;
+    border-radius: 50%;
+}
